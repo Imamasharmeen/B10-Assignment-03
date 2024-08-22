@@ -34,16 +34,98 @@
             theme: {
                 extend: {
                     colors: {
-                        clifford: '#da373d',
+                        primary: 'rgb(171, 239, 95)',
+                        secondary: 'rgba(171, 239, 95, 0.5)',
+                        body: 'rgb(244, 244, 244)',
+                        color_black: 'rgb(33, 33, 33)',
+                        color_black2: 'rgb(28, 28, 28)',
+                        color_gray: 'rgb(73, 73, 73)',
+                        color_light_gray: 'rgb(115, 115, 115)',
+                        color_black: 'rgb(33, 33, 33)',
+
                         
-                    }
-                }
-            }
+                    },
+                },
+            },
         }
     </script>
 </head>
+<!--
+    <div class="flex justify-center items-center w-10 h-10 bg-primary rounded-full">
+    <i class="fa-solid fa-arrow-up rotate-45 text-black"></i>
+    </div>
+-->
 
 <body class=".Manrope">
+    
+    <header class="w-10/12 mx-auto">
+        <!--Navbar-->
+        <div class="navbar bg-base-100 mt-9">
+            <div class="navbar-start flex-1">
+
+                <div class="flex space-x-2  items-center ">
+                    <div class="flex justify-center items-center w-10 h-10 bg-primary rounded-full">
+                        <i class="fa-solid fa-arrow-up rotate-45 text-black"></i>
+                        </div>
+                    <a class="font-bold text-4xl">Rinterio</a>
+                </div>
+            </div>
+            <div class="navbar-center hidden lg:flex ">
+                <ul class="menu menu-horizontal text-base ">
+                    <li class="hover:text-neutral-300 duration-300 ease-in-out font-bold"><a>Home</a></li>
+                    <li class="hover:text-neutral-300 duration-300 ease-in-out"><a>Services</a></li>
+                    <li class="hover:text-neutral-300 duration-300 ease-in-out"><a>Portfolio</a></li>
+                    <li class="hover:text-neutral-300 duration-300 ease-in-out"><a>Blogs</a></li>
+                    <li class="hover:text-neutral-300 duration-300 ease-in-out"><a>Contact Us</a></li>
+                </ul>
+            </div>
+            <div class="navbar-end hidden lg:flex space-x-5 flex-1 md:space-x-3">
+                <p class="flex justify-center items-center w-10 h-10 rounded-full border p-2"><i class="fa-solid fa-magnifying-glass"></i></p>
+                <p class="flex justify-center items-center w-10 h-10 rounded-full border p-2"><i class="fa-solid fa-cart-shopping"></i></i></p>
+                <a class="btn btn-active rounded-3xl text-center text-xl bg-primary">Book Consult <span class="flex justify-center items-center w-10 h-10 bg-black rounded-full"><i class="fa-solid fa-arrow-up rotate-45 text-white"></i></span></a>
+                
+            </div>
+            <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </div>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-base right-0">
+                    <li><a>Home</a></li>
+                    <li><a>Services   </a></li>
+                    <li><a>Portfolio</a></li>
+                    <li><a>Blogs</a></li>
+                    <li><a>Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!--header content -->
+        <section>
+            <div class="w-1/2 mx-auto object-cover mt-14 mb-6">
+                <img src="./assets/banner.png">
+            </div>
+            <div class="space-y-7 text-center">
+                    <h1 class="text-6xl font-extrabold">A barn house of this design has a <br>striking appearance</h1>
+                    <p class="text-base font-medium">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br>accents, and large windows that flood the space with natural light.</p>
+                    <a class="btn btn-active rounded-3xl text-center text-xl border-primary bg-secondary">View Details <span class="flex justify-center items-center w-10 h-10 bg-primary rounded-full"><i class="fa-solid fa-arrow-up rotate-45 text-black"></i></span></a>
+            </div>
+        </section>
+        
+
+    
+
+        <!--Navbar CDN-->
+
+    </header>
+    <main class="md:container mx-auto"></main>
+    <footer></footer>
+
+
     
 
 </body>
